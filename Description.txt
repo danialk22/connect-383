@@ -4,3 +4,12 @@ completely full (even after a player has achieved 4-in-a-row), at which point sc
 
 Points are awarded as follows: for each run of length three or greater, the player will receive points equal to the square of the length of that run. 
 For example, 3-in-a-row is worth 9 points, 4-in-a-row 16, 5-in-a-row 25, etc. 
+
+To play a game, you run connect383.py from a command line (or within an IDE) and supply it with arguments that determine the parameters of the game and
+which type of agents are playing. The required arguments are, in order: play1, play2, and brd.
+
+The first two arguments specify the agent type for Player 1 and Player 2, respectively. Their value should be one of { random, human, mini, prune, lookN,
+or altN }, where N is an integer specifying the depth limit for lookahead agents.
+
+The third argument specifies the board type to play on. Its value can be a tag associated with a a predefined board in boards.py, or can take the form 
+RxC where R and C are integers defining the number of rows and columns, respectively.
