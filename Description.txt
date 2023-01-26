@@ -1,0 +1,3 @@
+Our variant, Connect 383, will have three main differences from the basic game. First, we will not be limited to 6x7 boards. Secondly, games may start with one or more "obstacle" pieces already on the board which do not belong to either player. Lastly, play will always continue until the board is completely full (even after a player has achieved 4-in-a-row), at which point scores for each player will be calculated.
+
+Points are awarded as follows: for each run of length three or greater, the player will receive points equal to the square of the length of that run. For example, 3-in-a-row is worth 9 points, 4-in-a-row 16, 5-in-a-row 25, etc. 
